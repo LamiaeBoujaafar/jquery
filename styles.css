@@ -1,0 +1,15 @@
+.aqua
+{
+    background-color: aqua;
+   
+}
+.bold
+{
+     font-weight: bold;
+}
+
+.main,.main1,.main2,#try2,#try1,#try3,#try4,#try5,#try6,#try
+{
+    border: 5px solid red;
+    margin: 10px;
+}

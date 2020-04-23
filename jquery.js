@@ -30,5 +30,25 @@ $(document).ready(function()
         var x = $("#p1").attr("style");
         console.log(x);
     })
+    $("#buttonstyle1").click(function(){
+        $("#style1").addClass("aqua bold");
+        $("#style2").css({
+            "color" : "red"
+        })
+    });
+    $("#buttonstyle2").click(function(){
+        $("#style1").removeClass("bold");
+    });
+    $("#try").click(function(){
+        $("#try1").parents(".main").css({"border" : "5px solid green" });
+         $(".main1").children().css({"border" : "5px solid green" });
+        $(".main1").find("p").css({"border" : "5px solid green" });
+        $("#try4").siblings().css({"border" : "5px solid green" });
+        $("p").filter(".special").css({"border" : "5px solid green" });
+        $(".main2").load("text.txt");
+        
+        
+    })
+   
 
 });
